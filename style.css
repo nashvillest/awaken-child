@@ -1,0 +1,43 @@
+/*
+ Theme Name:   Awaken Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Awaken Child Theme
+ Author:       Beth Downey
+ Author URI:   http://example.com
+ Template:     awaken
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  awaken-child
+*/
+
+@import url("../awaken/style.css");
+
+
+/* ----- HEADER -----*/
+
+.main-navigation li.current-menu-item, .page-entry-title, .archive-page-title, .search-page-title {background-color: #bcdd11!important}
+
+.site-brand-container {position: relative;}
+.site-description {position: absolute; top: 100px; left: -20px;}
+
+.site-logo {margin-top: 50px;}
+
+.page-numbers a:hover {background-color: #4dc5d6!important;}
+
+.site-title { display: none; }
+
+/* SIDEBAR */
+
+input.search-submit, h2.widget-title, span.page-numbers.current, .main-navigation a:hover, button, input[type="button"], input[type="reset"], input[type="submit"] {background-color: #bcdd11!important;}
+
+.widget-title-container, .page-entry-header, .archive-page-header, .search-page-header  {border-bottom: 2px solid #4dc5d6;}
+
+/* .main-widget-area ul li a {color: #bcdd11;} */
+.genpost-entry-title a:hover, .main-widget-area ul li a:hover {color: #4dc5d6;}
+
+
+/* FOOTER */
+
+.th-copyright {display: none;}
