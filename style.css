@@ -28,6 +28,15 @@
 
 .site-title { display: none; }
 
+/* FRONT PAGE */
+
+@media screen and (min-width: 768px) {
+	.genpost-featured-image img {
+	width: 100%;
+	height: 200px;
+	}
+}
+
 /* SIDEBAR */
 
 input.search-submit, h2.widget-title, span.page-numbers.current, .main-navigation a:hover, button, input[type="button"], input[type="reset"], input[type="submit"] {background-color: #bcdd11!important;}
