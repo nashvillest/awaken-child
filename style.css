@@ -30,6 +30,8 @@
 
 /* FRONT PAGE */
 
+.home .byline { display: none; }
+
 @media screen and (min-width: 768px) {
 	.genpost-featured-image img {
 	width: 100%;
