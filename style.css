@@ -41,7 +41,7 @@
 
 /* SIDEBAR */
 
-input.search-submit, h2.widget-title, span.page-numbers.current, .main-navigation a:hover, button, input[type="button"], input[type="reset"], input[type="submit"] {background-color: #bcdd11!important;}
+input.search-submit, h3.widget-title, span.page-numbers.current, .main-navigation a:hover, button, input[type="button"], input[type="reset"], input[type="submit"] {background-color: #bcdd11!important;}
 
 .widget-title-container, .page-entry-header, .archive-page-header, .search-page-header  {border-bottom: 2px solid #4dc5d6;}
 
