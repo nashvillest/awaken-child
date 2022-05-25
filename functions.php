@@ -12,5 +12,5 @@ if (is_child_theme()) {
             true
         );
     }
-    add_action('admin_enqueue_scripts', 'nashvillest_hide_old_archive_months');
+    add_action('wp_enqueue_scripts', 'nashvillest_hide_old_archive_months');
 }
